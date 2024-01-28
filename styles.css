@@ -86,6 +86,17 @@ footer {
   transform: scale(1.2);
   color: orange;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .drum {
+    width: 120px;
+    height: 120px;
+    font-size: 4rem;
+  }
+}
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 2rem;
